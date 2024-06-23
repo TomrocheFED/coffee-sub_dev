@@ -38,8 +38,7 @@
 
 /* Collection */
 #collection {
-    margin-top: 250px;
-    margin-bottom: 125px;
+    margin-top: calc(var(--section-spacing) + 75px);
 }
 
 #collection .row:has(.collection-item) {
@@ -97,10 +96,6 @@
 }
 
 /* Benefits */
-#benefits {
-    margin-bottom: 10rem;
-}
-
 #benefits h2 {
     color: var(--cl-white);
 }
@@ -159,4 +154,47 @@
     #benefits .container::after {
         bottom: 470px;
     }
+}
+
+/* How it works */
+#how-it-works h2 {
+    font-size: var(--fs-4);
+    color: var(--cl-grey);
+}
+
+.row:has(.bullet) {
+    position: relative;
+
+    &::before {
+        --h: 2px;
+
+        content: "";
+        position: absolute;
+        left: 5%;
+        right: 33%;
+        top: calc((100% - var(--h)) / 2);
+        height: var(--h);
+        background-color: var(--cl-tertiary);
+        z-index: -1;
+    }
+}
+
+.bullet {
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px solid var(--cl-primary);
+    background-color: var(--cl-white);
+}
+
+#how-it-works .number {
+    color: var(--cl-tertiary);
+    font-size: var(--fs-1);
+    font-family: var(--ff-secondary);
+    font-weight: 900;
+    font-size: 72px !important;
+}
+
+#how-it-works h3 {
+    max-width: 9ch;
 }

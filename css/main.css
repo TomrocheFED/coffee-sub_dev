@@ -26,6 +26,7 @@
 
     --radius: 10px;
     --transition: 0.2s ease-out;
+    --section-spacing: 175px;
 }
 
 @media (max-width: 768px) {
@@ -38,12 +39,18 @@
 @media (max-width: 576px) {
     :root {
         --fs-1: 40px;
+        --section-spacing: 100px;
     }
 }
 
 body {
     font-family: var(--ff-primary);
     font-size: var(--fs-main);
+    color: var(--cl-secondary);
+}
+
+section {
+    margin-block-end: var(--section-spacing);
 }
 
 header,

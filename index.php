@@ -115,3 +115,68 @@ include_once "includes/header.php";
         </div>
     </div>
 </section>
+
+<section id="how-it-works">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+          <div class="col-11 text-center text-md-start">
+              <h2>How it works</h2>
+          </div>
+      </div>
+      <div class="row justify-content-center d-none d-md-flex mb-4">
+            <div class="col-11">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="bullet"></div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bullet"></div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bullet"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-11">
+                <div class="row gap-5 gap-md-0">
+                    <div class="col-md-4 pe-lg-5 text-center text-md-start">
+                        <span class="number d-block mb-3">01</span>
+                        <h3 class="mb-3 mx-auto mx-md-0">Pick your coffee</h3>
+                        <p>
+                            Select from our evolving range of artisan coffees. Our beans are ethically 
+                            sourced and we pay fair prices for them. There are new coffees in all profiles 
+                            every month for you to try out.
+                        </p>
+                    </div>
+                    <div class="col-md-4 pe-lg-5 text-center text-md-start">
+                        <span class="number d-block mb-3">02</span>
+                        <h3 class="mb-3 mx-auto mx-md-0">Choose the frequency</h3>
+                        <p>
+                            Customize your order frequency, quantity, even your roast style and grind type. 
+                            Pause, skip or cancel your subscription with no commitment through our online portal.
+                        </p>
+                    </div>
+                    <div class="col-md-4 pe-5-lg text-center text-md-start">
+                        <span class="number d-block mb-3">03</span>
+                        <h3 class="mb-3 mx-auto mx-md-0">Receive and enjoy</h3>
+                        <p>
+                            We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning 
+                            world-class coffees curated to provide a distinct tasting experience.
+                        </p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-11 text-center text-md-start">
+                <a href="#" class="cta cta-primary">Create your plan</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php 
+include_once "includes/footer.php";
+?>
