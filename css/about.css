@@ -1,6 +1,7 @@
 #about-hero .container {
     background-image: url(../assets/about/desktop/image-hero-whitecup.jpg);
-    background-position: center;
+    background-position: right;
+    background-size: cover;
     border-radius: var(--radius);
 }
 
@@ -10,4 +11,17 @@
 
 .hero-inner h2 {
     color: var(--cl-white) !important;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    #about-hero .container {
+        background-image: url(../assets/about/tablet/image-hero-whitecup.jpg);
+    }
+}
+@media (max-width: 576px) {
+    #about-hero .container {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+            url(../assets/about/mobile/image-hero-whitecup.jpg);
+        background-size: cover;
+    }
 }
