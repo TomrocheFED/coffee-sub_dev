@@ -8,6 +8,7 @@
     --cl-secondary: #333d4b;
     --cl-tertiary: #fdd6ba;
     --cl-white: #ffffff;
+    --cl-black: #323232;
     --cl-grey: #83888f;
     --cl-bg-cream: #fefcf7;
 
@@ -20,5 +21,76 @@
     --fs-3: 32px;
     --fs-4: 24px;
     --fs-main: 16px;
-    --fs-xs: 12px;
+    --fs-xs: 13px;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-main);
+}
+
+header,
+footer,
+section {
+    padding-inline: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--ff-secondary);
+}
+
+h1 {
+    font-size: var(--fs-1);
+}
+
+h2 {
+    font-size: var(--fs-2);
+}
+
+h3 {
+    font-size: var(--fs-3);
+}
+
+h4 {
+    font-size: var(--fs-4);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+/* Header */
+header nav a,
+footer nav a {
+    font-size: var(--fs-xs);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--cl-grey);
+    letter-spacing: 1px;
+    transition: 0.2s ease;
+}
+
+header nav a:hover {
+    color: var(--cl-black);
+}
+
+#mm-open-menu {
+    width: 30px;
+    aspect-ratio: 1;
+    background-image: url(../assets/shared/mobile/icon-hamburger.svg);
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
 }
