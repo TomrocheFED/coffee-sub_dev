@@ -83,6 +83,10 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1280px;
 }
@@ -90,9 +94,8 @@ ul {
 .cta {
     font-family: var(--ff-secondary);
     font-weight: 900;
-    padding: 12px 25px;
+    padding: 15px 30px;
     border-radius: 5px;
-    text-decoration: none;
     transition: var(--transition);
 }
 
@@ -111,7 +114,6 @@ footer nav a {
     font-size: var(--fs-xs);
     text-transform: uppercase;
     font-weight: 700;
-    text-decoration: none;
     color: var(--cl-grey);
     letter-spacing: 1px;
     transition: var(--transition);

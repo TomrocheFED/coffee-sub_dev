@@ -13,6 +13,8 @@
 
 .hero-inner h1 {
     color: var(--cl-white);
+    line-height: 1;
+    margin-block-end: 1.5rem;
 }
 
 .hero-inner p {
@@ -31,5 +33,65 @@
             url(../assets/home/mobile/image-hero-coffeepress.jpg);
         background-position: top;
         background-size: 100%;
+    }
+}
+
+/* Collection */
+#collection {
+    margin-top: 250px;
+    margin-bottom: 125px;
+}
+
+#collection .row:has(.collection-item) {
+    position: relative;
+
+    &::after {
+        content: "our collection";
+        position: absolute;
+        top: -10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 8vw;
+        background: linear-gradient(to top, rgba(227, 0, 0, 0) 30%, var(--cl-grey) 100%);
+        -webkit-background-clip: text; /* Gebruik de achtergrond als clip voor de tekst */
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        width: 100%;
+        text-align: center;
+        z-index: -1;
+        font-family: var(--ff-secondary);
+        font-weight: 700;
+    }
+}
+
+.collection-item {
+    color: var(--cl-secondary);
+
+    & img {
+        transition: var(--transition);
+    }
+
+    &:hover img {
+        transform: translateY(-5px);
+    }
+}
+
+.collection-item h4 {
+    text-wrap: nowrap;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .collection-item img {
+        max-width: 200px;
+    }
+}
+@media (max-width: 576px) {
+    #collection .row:has(.collection-item)::after {
+        top: -5%;
+    }
+
+    .collection-item img {
+        max-width: 250px;
+        align-self: center;
     }
 }
