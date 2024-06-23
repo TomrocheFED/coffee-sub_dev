@@ -1,0 +1,35 @@
+/* Hero */
+.hero-outer {
+    border-radius: var(--radius);
+    background-image: url(../assets/home/desktop/image-hero-coffeepress.jpg);
+    background-position: top;
+    background-size: cover;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5));
+}
+
+.hero-inner {
+    padding-block: 80px;
+}
+
+.hero-inner h1 {
+    color: var(--cl-white);
+}
+
+.hero-inner p {
+    max-width: 45ch;
+    color: var(--cl-white-secondary);
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .hero-outer {
+        background-image: url(../assets/home/tablet/image-hero-coffeepress.jpg);
+    }
+}
+@media (max-width: 576px) {
+    .hero-outer {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+            url(../assets/home/mobile/image-hero-coffeepress.jpg);
+        background-position: top;
+        background-size: 100%;
+    }
+}
