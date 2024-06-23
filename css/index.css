@@ -53,7 +53,7 @@
         transform: translate(-50%, -50%);
         font-size: 8vw;
         background: linear-gradient(to top, rgba(227, 0, 0, 0) 30%, var(--cl-grey) 100%);
-        -webkit-background-clip: text; /* Gebruik de achtergrond als clip voor de tekst */
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         white-space: nowrap;
         width: 100%;
@@ -93,5 +93,70 @@
     .collection-item img {
         max-width: 250px;
         align-self: center;
+    }
+}
+
+/* Benefits */
+#benefits {
+    margin-bottom: 10rem;
+}
+
+#benefits h2 {
+    color: var(--cl-white);
+}
+
+#benefits .container {
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0 0 175px 0;
+        background-color: var(--cl-secondary);
+        z-index: -1;
+        border-radius: var(--radius);
+    }
+}
+
+#benefits .heading-par {
+    max-width: 65ch;
+    margin-inline: auto;
+    color: var(--cl-white-secondary);
+}
+
+.benefit {
+    background-color: var(--cl-primary);
+    border-radius: var(--radius);
+    padding-inline: 2rem;
+    padding-block: 4rem;
+    height: 365px;
+}
+
+.benefit img {
+    max-width: 70px;
+}
+
+.benefit h4 {
+    color: var(--cl-white);
+    margin-block-end: 1.25rem;
+}
+
+.benefit p {
+    color: var(--cl-white-secondary);
+}
+
+@media (max-width: 992px) {
+    .benefit {
+        height: auto;
+    }
+
+    #benefits .container::after {
+        bottom: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    #benefits .container::after {
+        bottom: 470px;
     }
 }

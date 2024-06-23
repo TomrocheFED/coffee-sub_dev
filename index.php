@@ -61,3 +61,57 @@ include_once "includes/header.php";
         </div>
     </div>
 </section>
+
+<section id="benefits">
+    <div class="container">
+        <div class="row text-center mb-5 pt-5">
+            <div class="col-12 pt-4">
+                <h2 class="mb-4">Why choose us?</h2>
+                <p class="heading-par">
+                    A large part of our role is choosing which particular coffees will be featured 
+                    in our range. This means working closely with the best coffee growers to give you a more impactful 
+                    experience on every level.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-11">
+                <div class="row gap-3 gap-lg-0">
+                    <div class="col-lg-4">
+                        <div class="benefit d-flex flex-column flex-sm-row flex-lg-column align-items-center align-items-sm-start align-items-lg-center justify-content-center gap-5">
+                            <img src="assets/home/desktop/icon-coffee-bean.svg" alt="Coffee bean">
+                            <div class="text-center text-sm-start text-lg-center">
+                                <h4>Best quality</h4>
+                                <p class="m-0">
+                                    Discover an endless variety of the world’s best artisan coffee from each of our roasters.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="benefit d-flex flex-column flex-sm-row flex-lg-column align-items-center align-items-sm-start align-items-lg-center justify-content-center gap-5">
+                            <img src="assets/home/desktop/icon-gift.svg" alt="Gift">
+                            <div class="text-center text-sm-start text-lg-center">
+                                <h4>Exclusive benefits</h4>
+                                <p class="m-0">
+                                    Special offers and swag when you subscribe, including 30% off your first shipment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="benefit d-flex flex-column flex-sm-row flex-lg-column align-items-center align-items-sm-start align-items-lg-center justify-content-center gap-5">
+                            <img src="assets/home/desktop/icon-truck.svg" alt="Truck">
+                            <div class="text-center text-sm-start text-lg-center">
+                                <h4>Free shipping</h4>
+                                <p class="m-0">
+                                    We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
