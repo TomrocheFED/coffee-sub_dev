@@ -1,0 +1,13 @@
+#about-hero .container {
+    background-image: url(../assets/about/desktop/image-hero-whitecup.jpg);
+    background-position: center;
+    border-radius: var(--radius);
+}
+
+.hero-inner {
+    padding-block: 100px;
+}
+
+.hero-inner h2 {
+    color: var(--cl-white) !important;
+}

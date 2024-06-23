@@ -11,7 +11,7 @@
                 <nav class="d-none d-sm-block">
                     <ul class="d-flex align-items-center gap-sm-4 gap-md-5">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="about.php">About</a></li>
                         <li><a href="#">Create your plan</a></li>
                     </ul>
                 </nav>
