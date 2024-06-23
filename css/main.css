@@ -98,6 +98,10 @@ a {
     max-width: 1280px;
 }
 
+.row:has(.col-11) {
+    justify-content: center;
+}
+
 .cta {
     font-family: var(--ff-secondary);
     font-weight: 900;
@@ -139,4 +143,22 @@ header nav a:hover {
     background-repeat: no-repeat;
     background-color: transparent;
     border: none;
+}
+
+/* Footer */
+footer .container {
+    background-color: var(--cl-secondary);
+    margin-block-end: 2rem;
+}
+
+footer nav a:hover {
+    color: var(--cl-white);
+}
+
+.social-platform svg path {
+    transition: var(--transition);
+}
+
+.social-platform:hover svg path {
+    fill: var(--cl-tertiary);
 }

@@ -6,7 +6,7 @@ include_once "includes/header.php";
     <div class="container">
         <div class="row">
             <div class="hero-outer col-12">
-                <div class="row justify-content-center">
+                <div class="row">
                     <div class="hero-inner col-11 d-flex flex-column align-items-center align-items-sm-start text-center text-sm-start">
                         <h1>Great coffee made simple.</h1>
                         <p>
@@ -25,7 +25,7 @@ include_once "includes/header.php";
 
 <section id="collection">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-11">
                 <div class="row gap-5 gap-md-0">
                     <a href="#" class="collection-item col-md-3 d-flex flex-column flex-sm-row flex-md-column">
@@ -74,7 +74,7 @@ include_once "includes/header.php";
                 </p>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-11">
                 <div class="row gap-3 gap-lg-0">
                     <div class="col-lg-4">
@@ -118,12 +118,12 @@ include_once "includes/header.php";
 
 <section id="how-it-works">
     <div class="container">
-      <div class="row justify-content-center mb-5">
+      <div class="row mb-5">
           <div class="col-11 text-center text-md-start">
               <h2>How it works</h2>
           </div>
       </div>
-      <div class="row justify-content-center d-none d-md-flex mb-4">
+      <div class="row d-none d-md-flex mb-4">
             <div class="col-11">
                 <div class="row">
                     <div class="col-4">
@@ -138,7 +138,7 @@ include_once "includes/header.php";
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-11">
                 <div class="row gap-5 gap-md-0">
                     <div class="col-md-4 pe-lg-5 text-center text-md-start">
@@ -169,7 +169,7 @@ include_once "includes/header.php";
                 </div>
             </div>  
         </div>
-        <div class="row justify-content-center mt-5">
+        <div class="row mt-5">
             <div class="col-11 text-center text-md-start">
                 <a href="#" class="cta cta-primary">Create your plan</a>
             </div>
