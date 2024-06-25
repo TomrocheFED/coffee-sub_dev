@@ -32,6 +32,7 @@
 @media (max-width: 768px) {
     :root {
         --fs-1: 48px;
+        --fs-2: 30px;
         --fs-main: 15px;
     }
 }

@@ -25,3 +25,8 @@
         background-size: cover;
     }
 }
+
+/* Commitment */
+#commitment img {
+    border-radius: var(--radius);
+}
